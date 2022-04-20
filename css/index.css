@@ -38,7 +38,7 @@
 
      /* font usato */
      .titolo, .autorescritta, .dataarticolo, 
-     .dataarticolo, .corpoarticolo{
+     .dataarticolo, .corpoarticolo, .titolofooter{
       font-family: Arial, sans-serif; 
      }
 
@@ -71,7 +71,7 @@
 
    .corpoarticolo{
        width: 90%;
-     margin-top: 15px ;
+     margin-top: 20px ;
    }
 
    .evidenziatura{
@@ -100,5 +100,31 @@
         background-color:rgb(255, 255, 255);   
         }
 
+       /* footer con titolo e 2 foto */
+       footer{
+           margin: 5px;
+       }
+    
+       .titolofooter{
+        font-size: 15px;
+        color: rgb(166, 25, 208);
+        margin-top: 50px;
+        }
+       .fotouno{
+         background-image: url('../img/graph.jpg');
+         width: 311px;
+         height: 207px;
+         margin-top: 10px;
+       }
+       .fotodue{
+        background-image: url(../img/monitor.jpg);
+        width: 311px;
+        height: 207px;
+        margin-top: 10px;
+       }
+       
+
         
+       
+
 
