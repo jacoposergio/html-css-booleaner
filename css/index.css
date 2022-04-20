@@ -30,7 +30,6 @@
 
      /* corpo dell'articolo */
  main{
-       background-color: pink;
     margin: 5px;
     padding: 0;
     box-sizing: border-box;
@@ -38,13 +37,15 @@
 
      /* font usato */
      .titolo, .autorescritta, .dataarticolo, 
-     .dataarticolo, .corpoarticolo, .titolofooter{
-      font-family: Arial, sans-serif; 
+     .dataarticolo, .corpoarticolo, .titolofooter,
+     .fotouno, .fotodue{
+      font-family: Cambria;
      }
 
 
    .titolo{  
       font-size: 20px;
+      margin-top: 15px;
      }
 
    .autorescritta{
@@ -67,6 +68,10 @@
    .mainpictures{
     margin-top: 20px;
     margin-bottom: 5px;
+   }
+
+   .descrizionefoto{
+       font-size: 12px;
    }
 
    .corpoarticolo{
@@ -110,19 +115,26 @@
         color: rgb(166, 25, 208);
         margin-top: 50px;
         }
-       .fotouno{
-         background-image: url('../img/graph.jpg');
+
+       .fotouno, .fotodue{
+        font-size: 12px;
+         color: white;
+         padding: 10px;
+         margin-right: 30%;
          width: 311px;
          height: 207px;
          margin-top: 10px;
        }
-       .fotodue{
-        background-image: url(../img/monitor.jpg);
-        width: 311px;
-        height: 207px;
-        margin-top: 10px;
-       }
-       
+
+       .fotouno{
+        background-image: url('../img/graph.jpg');
+        
+      }
+      .fotodue{
+       background-image: url(../img/monitor.jpg);
+      }
+     
+    
 
         
        
