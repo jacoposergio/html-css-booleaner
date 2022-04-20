@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+ 
 /* Header */
 
 .headerbackground{
@@ -25,3 +26,31 @@
             bottom: 5%;
             left: 1%;
         }
+
+ main{
+       background-color: pink;
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+     }
+
+   .titolo{
+       font-family: Arial, sans-serif;
+      font-size: 20px;
+     }
+
+   .autorescritta{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: grey;
+     }
+
+     .dataarticolo{
+     font-family: Arial, sans-serif;
+     font-size: 15px;
+     color: grey;
+     }
+    
+     #thebooleaner{
+     color: rgb(131, 165, 232);    
+     }
