@@ -89,12 +89,15 @@
 
   /* impostazioni grafiche della tabella  */
        table{
+         text-align: left;
         border-spacing:0;
         width: 90%;
+        a
        }
        
         th{
-            width: 20%;;
+            color: white;
+            width: 20%;
             font-size: small;
             background-color: hsl(198deg 79% 51%);
            }
