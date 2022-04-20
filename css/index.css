@@ -8,6 +8,7 @@
 
  
 /* Header */
+ /* barra superiore con logo */
 
 .headerbackground{
         background-image: url("../img/pattern.png");
@@ -27,6 +28,7 @@
             left: 1%;
         }
 
+     /* corpo dell'articolo */
  main{
        background-color: pink;
     margin: 5px;
@@ -34,19 +36,24 @@
     box-sizing: border-box;
      }
 
-   .titolo{
-       font-family: Arial, sans-serif;
+     /* font usato */
+     .titolo, .autorescritta, .dataarticolo, 
+     .dataarticolo, .corpoarticolo{
+      font-family: Arial, sans-serif; 
+     }
+
+
+   .titolo{  
       font-size: 20px;
      }
 
    .autorescritta{
-    font-family: Arial, sans-serif;
     font-size: 15px;
     color: grey;
+    margin-bottom: 3px;
      }
 
-     .dataarticolo{
-     font-family: Arial, sans-serif;
+     .dataarticolo{ 
      font-size: 15px;
      color: grey;
      }
@@ -54,3 +61,15 @@
      #thebooleaner{
      color: rgb(131, 165, 232);    
      }
+
+
+   /* foto principali dell'articolo */
+   .mainpictures{
+    margin-top: 20px;
+    margin-bottom: 5px;
+   }
+
+   .corpoarticolo{
+       width: 90%;
+     margin-top: 15px ;
+   }
