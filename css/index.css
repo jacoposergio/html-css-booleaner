@@ -81,4 +81,24 @@
    .listapuntata{
       padding: 20px;
    }
-   
+
+  /* impostazioni grafiche della tabella  */
+       table{
+        border-spacing:0;
+        width: 90%;
+       }
+       
+        th{
+            width: 20%;;
+            font-size: small;
+            background-color: hsl(198deg 79% 51%);
+           }
+        tr.pari{
+        background-color: hsl(192deg 71% 82%); 
+        }
+        tr.dispari{
+        background-color:rgb(255, 255, 255);   
+        }
+
+        
+
